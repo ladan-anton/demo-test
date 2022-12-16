@@ -1,0 +1,30 @@
+﻿<Application x:Class="yiy.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:yiy"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#00CC76"/>
+            <Setter Property="Background" Value="#CEFFF9"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="#00CC76"/>
+            <Setter Property="Background" Value="#CEFFF9"/>
+            <Setter Property="FontFamily" Value="Cabriola"/>
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Foreground" Value="#00CC76" />
+            <Setter Property="Background" Value="#CEFFF9"/>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#00CC76" />
+            <Setter Property="Background" Value="#CEFFF9" />
+        </Style>
+
+    </Application.Resources>
+</Application>
